@@ -1,0 +1,32 @@
+:root {
+    --knicks-blue: rgba(0,108,181,255);
+    --knicks-orange: rgba(244,134,37,255);
+}
+
+.navbar {
+    background-color: var(--knicks-blue);
+}
+
+.navbar-toggler {
+    border: var(--bs-border-width) solid var(--knicks-blue);
+    color: rgba(0,108,181,255);
+}
+
+.navbar.container-fluid {
+    background-color: var(--knicks-orange);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.carousel-inner img {
+    width: 100%;
+    height: 800px;
+}
+
+.shop-by-players {
+    margin-top: 20px;
+    margin-bottom: 0.5em;
+}
+
